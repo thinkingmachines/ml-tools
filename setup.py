@@ -1,4 +1,5 @@
 from setuptools import setup
+from setuptools import find_packages
 
 setup(name='tm-ml-tools',
       version='0.1',
@@ -7,5 +8,5 @@ setup(name='tm-ml-tools',
       author='Thinking Machines',
       author_email='hello@thinkingmachin.es',
       license='MIT',
-      packages=['tm'],
+      packages=find_packages(),
       zip_safe=False)
