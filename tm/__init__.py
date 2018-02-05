@@ -1,1 +1,1 @@
-from tm import ces
+import tm.ces

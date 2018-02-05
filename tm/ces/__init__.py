@@ -1,1 +1,1 @@
-from tm.ces import auth
+import tm.ces.auth
