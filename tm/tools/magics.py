@@ -4,7 +4,7 @@ from pandas.io import gbq
 import pandas_gbq
 
 
-def add_bq_magic(project_id):
+def add_bq_magic(project_id, parent_globals):
   # Silence annoying warning logs
   logging.getLogger('googleapiclient.discovery_cache').setLevel(logging.ERROR)
   logging.getLogger('google.auth._default').setLevel(logging.ERROR)
@@ -40,7 +40,7 @@ def add_bq_magic(project_id):
       return
 
     if df_var_name:
-      globals()[df_var_name] = df
+      parent_globals[df_var_name] = df
 
     if head_rows is None:
       return df
