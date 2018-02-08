@@ -47,5 +47,5 @@ def add_bq_magic(project_id, parent_globals):
     elif head_rows == 0:
       print('done')
     else:
-      print('⚠️Only the first {} rows are displayed.'.format(head_rows))
+      print('{} rows:'.format(head_rows))
       return df.head(head_rows)  
