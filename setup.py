@@ -9,11 +9,11 @@ setup(name='tm-ml-tools',
       author_email='hello@thinkingmachin.es',
       license='MIT',
       install_requires=[
-            'googlecolab',
+            'google_colab',
             'portpicker'
       ],
       dependency_links=[
-          'git+https://github.com/googlecolab/colabtools.git#egg=googlecolab',
+          'git+https://github.com/googlecolab/colabtools.git#egg=google_colab',
       ],
       packages=find_packages(),
       zip_safe=False)
