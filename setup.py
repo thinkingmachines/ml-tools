@@ -13,7 +13,7 @@ setup(name='tm-ml-tools',
             'portpicker'
       ],
       dependency_links=[
-          'git+https://github.com/googlecolab/colabtools.git#egg=google_colab',
+          'git+https://github.com/googlecolab/colabtools.git@master#egg=google_colab-0',
       ],
       packages=find_packages(),
       zip_safe=False)
