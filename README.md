@@ -1,6 +1,6 @@
 # TM ML Tools
 
-Tools for ML work with Gooble Colab. Commonly used in conjunction with [TM Colab Enhancement Suite](https://github.com/thinkingmachines/colab-enhancement-suite).
+Tools for ML work with Google Colab. Commonly used in conjunction with [TM Colab Enhancement Suite](https://github.com/thinkingmachines/colab-enhancement-suite).
 
 ## Features
 
